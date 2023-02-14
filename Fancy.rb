@@ -20,3 +20,12 @@ color_array.length.times do |x|
         color_array[x] == '\\'
     end
 end
+puts color_array.join
+
+# output second half
+ halfway.upto(lines) do |i|
+    last = color_array.pop
+    color_array.unshift(last)
+    puts color_array.join
+ end
+ 

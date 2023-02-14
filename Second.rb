@@ -8,6 +8,6 @@ lines = 20
 lines.times do |i|
     first = color[0]
     second = color[1..-1]
-    color = first + second
+    color = second + first
     puts color
 end

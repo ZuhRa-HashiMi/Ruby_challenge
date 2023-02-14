@@ -15,4 +15,8 @@ color_array = color.split('')
 end
 
 # Swap the character and output the result
-color_array.length.times
+color_array.length.times do |x|
+    if color_array[x] == '/'
+        color_array[x] == '\\'
+    end
+end

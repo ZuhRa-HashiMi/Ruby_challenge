@@ -1,3 +1,3 @@
 print "What is your name? "
-respons = gets
+respons = gets.chop
 puts "#{respons}!"

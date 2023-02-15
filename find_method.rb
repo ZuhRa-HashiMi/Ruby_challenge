@@ -23,3 +23,6 @@ puts num
 
 num = (1..10).one? {|n| n<=5}
 puts num
+
+number = [*1..10].delete_if {|n| n<=5}
+puts number

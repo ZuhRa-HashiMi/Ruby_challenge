@@ -11,3 +11,6 @@ puts pentry
 
 num = (1..10).find_all {|n| n % 3 == 0}
 puts num
+
+num = (1..10).any? {|n| n<=5}
+puts num

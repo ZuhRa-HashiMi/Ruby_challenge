@@ -14,3 +14,6 @@ puts num
 
 num = (1..10).any? {|n| n<=5}
 puts num
+
+num = (1..10).none? {|n| n<=5}
+puts num
